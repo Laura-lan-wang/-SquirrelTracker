@@ -53,6 +53,18 @@
           var point_lat_lon = [{{ sighting.latitude }}, {{ sighting.longitude }}];
           var marker = L.marker(point_lat_lon).addTo(map);
         {% endfor %}
+        var circle = L.circle([40.782091, -73.964285], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: 500
+        }).addTo(map);
+        var marker = L.marker([40.782091, -73.964285]).addTo(map);
+        var polygon = L.polygon([
+            [40.509, -70.08],
+            [40.503, -73.964285],
+            [41.51, -72.964285]
+            ]).addTo(map);
     </script>
   </body>
 </html>
