@@ -10,7 +10,7 @@ class Squirrel(models.Model):
     )
 
     Y = models.FloatField(
-        help_text = _("Latitude)
+        help_text = _("Latitude")
     )
 
     Unique_Squirrel_ID = models.CharField(
@@ -79,17 +79,21 @@ class Squirrel(models.Model):
         blank = True,
     )
 
+
+    
     AG = 'Above Ground'
     GP = 'Ground Plane'
     BLANK = ''
+    
+    LOCATION_CHOICES = (
+        (AG, "Above Ground"),
+        (GP, "Ground Plane"),
+        (BLANK, "")
+    )
 
-   Location = models.CharField(
+    Location = models.CharField(
        help_text=_('Location'),
-       choices = (
-           (AG, 'Above Ground'),
-           (GP, 'Ground Plane'),
-           (BLANK, ''),
-       )
+       choices = LOCATION_CHOICES,
        max_length = 20,
        default = BLANK,
        null = True,
@@ -99,8 +103,7 @@ class Squirrel(models.Model):
         help_text = _('Specific Locaton'),
         max_length = 50,
         null = True,
-        null=True,
-        blank = True
+        blank = True,
     )
     TRUE = 'TRUE'
     FALSE = 'FALSE'
