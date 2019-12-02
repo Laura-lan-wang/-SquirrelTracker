@@ -6,7 +6,7 @@ from django.utils.translation import gettext as _
 class Squirrel(models.Model):
 
     X = models.FloatField(
-        help_text = _("Longtitude")
+        help_text = _("Longitude")
     )
 
     Y = models.FloatField(
