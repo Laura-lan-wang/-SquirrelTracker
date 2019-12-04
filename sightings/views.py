@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Squirrel
 def show_map(request):
+    #squirrels = Squirrel.objects.all()
     context = {
         'Squirrel': 1,
     }

@@ -65,10 +65,7 @@
             [40.503, -73.964285],
             [41.51, -72.964285]
             ]).addTo(map);
-            {% for sighting in sightings %}
-					          var point_lat_lon = [{{ sighting.latitude }}, {{ sighting.longitude }}];
-						            var marker = L.marker(point_lat_lon).addTo(map);
-							            {% endfor %}
+
     </script>
   </body>
 </html>
