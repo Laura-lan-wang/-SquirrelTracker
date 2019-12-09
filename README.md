@@ -24,26 +24,26 @@ Squirrel Census Data 2018 is available at:
 
  Displays the location of the squirrel sightings on an OpenStreets map
 
-    located at: map/
+    located at: https://neat-sunspot-255500.appspot.com/map/
 
 **Sightings:** 
 
-   - View all: lists all squirrel sightings with links to edit each sighting
+ - View all: lists all squirrel sightings with links to edit each sighting
         
-    located at: sightings/
+    located at: https://neat-sunspot-255500.appspot.com/sightings/
 
-   - Add: create a new squirrel sighting
+ - Add: create a new squirrel sighting
 
-    located at: sightings/add/
+    located at: https://neat-sunspot-255500.appspot.com/sightings/add/
 
-   - Edit: update a particular sighting with its unique squirrel ID
+ - Edit: update a particular sighting with its unique squirrel ID
 
-    located at: sightings/<unique_squirrel_id>/
+    located at: https://neat-sunspot-255500.appspot.com/sightings/<unique_squirrel_id>/
 
 
-   - Statistics of Squirrel Data: Show general statistics of the current data set
+ - Statistics of Squirrel Data: Show general statistics of the current data set
 
-    located at: sightings/stats/
+    located at: https://neat-sunspot-255500.appspot.com/sightings/stats/
 
 ## Build with
 Django 2.2.7
@@ -67,6 +67,8 @@ Laura Wang and Jueran Ren
 UNIs: [lw2884, jr3982]
 
 ## Deployment
+
+The deployment of the application is done on Google Cloud Server.
 
 Link:
 https://neat-sunspot-255500.appspot.com
