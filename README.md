@@ -4,10 +4,12 @@ Squirrel Tracker is a Web Application based on Django framework that can view, a
 
 Squirrel Census Data 2018 is available at:
  <a href='https://data.cityofnewyork.us/api/views/vfnx-vebw/rows.csv'>2018 Central Park Squirrel Census Data</a>
+ 
+ ![Image of Squirrel](https://ichef.bbci.co.uk/news/976/cpsprodpb/D6E6/production/_109241055_mediaitem109241054.jpg)
 
 ## Key Functionality
 
-**Management Commands:
+**Management Commands:**
 
 - Import: A command that can import the data from the 2018 census file. The file path needs to be specified at the command line after the name of the management command.
         
@@ -18,28 +20,28 @@ Squirrel Census Data 2018 is available at:
         $ python manage.py import_squirrel_data /path/to/file.csv
 
 
-**Map: 
+**Map:**
 
-Show all squirrel location on a map
+ Displays the location of the squirrel sightings on an OpenStreets map
 
     located at: map/
 
-**Sightings: 
+**Sightings:** 
 
-   - View: view all squirrel data. Each entry has its unique squirrel id, which can be redirected to edit the entry.
+   - View all: lists all squirrel sightings with links to edit each sighting
         
     located at: sightings/
 
-   - Add: add squirrel entry
+   - Add: create a new squirrel sighting
 
     located at: sightings/add/
 
-   - Edit: edit a current squirrel data
+   - Edit: update a particular sighting with its unique squirrel ID
 
     located at: sightings/<unique_squirrel_id>/
 
 
-   - Statistics of Squirrel Data: Show general statistics of current data set
+   - Statistics of Squirrel Data: Show general statistics of the current data set
 
     located at: sightings/stats/
 
@@ -54,7 +56,7 @@ HTML
 
 OpenStreetMap: https://www.openstreetmap.org/about/
 
-## Group name and section
+## Group Name and Section
 Project Group 15
 
 Section 2
