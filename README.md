@@ -1,6 +1,6 @@
 # Squirrel Tracker Web Application
 
-Squirrel Tracker is a Web Application based on Django framework that can view, add and update squirrel data.
+Squirrel Tracker is a Web Application based on Django framework that can view, add and update squirrel data. Key functionality is listed in the next section. 
 
 Squirrel Census Data 2018 is available at:
  <a href='https://data.cityofnewyork.us/api/views/vfnx-vebw/rows.csv'>2018 Central Park Squirrel Census Data</a>
