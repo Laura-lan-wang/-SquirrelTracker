@@ -9,7 +9,7 @@ class Command(BaseCommand):
         parser.add_argument('csv_file')
 
     def handle(self, *args, **options):
-        with open(options['csv_file'], mode='w') as csvfile:
+        with open(options['csv_file'], mode='w', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter = ',')
             all_fields = [f.name for f in Squirrel._meta.get_fields()]
             fieldnames = [Squirrel._meta.get_field(i).help_text for i in all_fields[1:]]
