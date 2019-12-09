@@ -68,7 +68,7 @@ UNIs: [lw2884, jr3982]
 
 ## Deployment
 
-Link
+Link:
 https://neat-sunspot-255500.appspot.com
 
 
