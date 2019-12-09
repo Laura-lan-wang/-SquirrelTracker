@@ -1,4 +1,4 @@
-# Squirrel Tracker Online Application
+# Squirrel Tracker Web Application
 
 Squirrel Tracker is a Web Application that can view, add and update squirrel data.
 
