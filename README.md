@@ -13,25 +13,21 @@ Map: Show all squirrel location on a map
 
 Sightings:
 
-    View: view all squirrel data. Each entry has its unique squirrel id, which can be redirected to edit the entry.
-
+   View: view all squirrel data. Each entry has its unique squirrel id, which can be redirected to edit the entry.
 
         located at: sightings/
 
-    Add: add squirrel entry
-
+   Add: add squirrel entry
 
         located at: sightings/add/
 
 
-    Edit: edit a current squirrel data
-
+   Edit: edit a current squirrel data
 
         located at: sightings/<unique_squirrel_id>/
 
 
-    Statistics of Squirrel Data: Show general statistics of current data set
-
+   Statistics of Squirrel Data: Show general statistics of current data set
 
         located at: sightings/stats/
 
