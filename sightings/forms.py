@@ -5,4 +5,6 @@ from .models import Squirrel
 class SquirrelForm(ModelForm):
     class Meta:
         model = Squirrel
-        fields = '__all__'
+        all_fields = [f.name for f in Squirrel._meta.get_fields()]
+        fields = []
+        fields.extend(all_fields)
