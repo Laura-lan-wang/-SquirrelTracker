@@ -8,6 +8,7 @@ Sightings: View, add, edit, and show general statistics of squirrel data
 ## Build with
 Django 2.2.7
 Python3
+sqlite3
 HTML
 OpenStreetMap: https://www.openstreetmap.org/about/
 
